@@ -29,10 +29,10 @@ body
 	position: absolute;
 	height: 50px;
 	width: 129px;
-	background: -webkit-linear-gradient(rgb(153, 15, 200), white);
-	background: -o-linear-gradient(rgb(153, 15, 200), white);
-	background: -moz-linear-gradient(rgb(153, 15, 200), white);
-	background: linear-gradient(rgb(153, 15, 200), white);
+	background: -webkit-linear-gradient(rgb(20,223,150), white);
+	background: -o-linear-gradient(rgb(20,223,150), white);
+	background: -moz-linear-gradient(rgb(20,223,150), white);
+	background: linear-gradient(rgb(20,223,150), white);
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	text-align: center;
@@ -42,7 +42,105 @@ body
 {
 	font-family: "Segoe UI";
 	font-size: 23px;
-	color: whitesmoke;
+	color: rgb(18,51,223);
 	position: relative;
 	top: 10px;
+	font-weight: 700;
+}
+
+#mainpagewriteup
+{
+	width: 677px;
+	height: 371px;
+	position: absolute;
+	top: 177px;
+	left: 77px;
+	text-align: justify;
+}
+
+#mainpicdiv
+{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 850px;
+	top: 222px;
+	background: url('../pics/bw.jpg');
+	background-size: 274px 300px;
+	background-position: 14px 4px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border: 1px solid black;
+
+}
+
+#mainpicdiv:hover
+{
+	background:none;
+	background:url("../pics/col.jpg");
+	background-size: 400px 300px;
+	background-position: -55px 0px;
+	z-index: 1;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.btag:hover
+{
+	position: absolute;
+	height: 50px;
+	width: 129px;
+	background: -webkit-linear-gradient(white , rgb(235,112,20));
+	background: -o-linear-gradient(white , rgb(235,112,20));
+	background: -moz-linear-gradient(white , rgb(235,112,20));
+	background: linear-gradient(white , rgb(235,112,20));
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#namemain
+{
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 63px;
+	color: rgb(191, 245, 219);
+	position: relative;
+	left: 22px;
+	border-bottom: 3px solid rgb(191,245,219);
+	border-radius: 29px;
+}
+
+#wutext
+{
+	font-family: 'Segoe UI' , sans-serif;
+	font-size: 25px;
+	position: relative;
+	top: 27px;
+	font-weight: 500;
+	color: rgb(9, 11, 65);
+}
+
+#bottombar
+{
+	height: 100px;
+	width: 1127px;
+	background: -webkit-linear-gradient(rgb(20,223,150), white);
+	background: -o-linear-gradient(rgb(20,223,150), white);
+	background: -moz-linear-gradient(rgb(20,223,150), white);
+	background: linear-gradient(rgb(20,223,150), white);
+	position: absolute;
+	top: 600px;
+	left: 80px;
+	text-align: center;
+}
+
+#movedownmain
+{
+	position: relative;
+	top:20px;
 }
