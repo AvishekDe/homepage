@@ -1,0 +1,64 @@
+#title
+{
+	width: 227px;
+	height: 78px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 63px;
+	color: rgb(191, 245, 219);
+	position: absolute;
+	left: 50px;
+	top: 150px;
+	border-bottom: 3px solid rgb(191,245,219);
+	border-radius: 29px;
+}
+
+#blogcontainer
+{
+	margin-left: 8%;
+	width: 85%;
+	border: 2px solid black;
+	position: absolute;
+	top: 260px;
+	border-radius: 30px;
+}
+
+.blog
+{
+	height: 50px;
+	font-family: 'Segoe UI' , cursive;
+	font-size: 30px;
+	width: 100%;
+	vertical-align: middle;
+	background: -webkit-linear-gradient(rgb(20,223,150), white);
+	background: -o-linear-gradient(rgb(20,223,150), white);
+	background: -moz-linear-gradient(rgb(20,223,150), white);
+	background: linear-gradient(rgb(20,223,150), white);
+	color: purple;
+}
+
+.blog:hover
+{
+	background: -webkit-linear-gradient(rgb(197,102,102), white);
+	background: -o-linear-gradient(rgb(197,102,102), white);
+	background: -moz-linear-gradient(rgb(197,102,102), white);
+	background: linear-gradient(rgb(197,102,102), white);
+	cursor: pointer;
+}
+
+.detail
+{
+	font-weight: 700;
+	margin-left: 30px;
+}
+
+.first
+{
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+}
+
+.last
+{
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
