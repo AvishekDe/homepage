@@ -1,0 +1,84 @@
+#title
+{
+	width: 362px;
+	height: 78px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 63px;
+	color: rgb(191, 245, 219);
+	position: absolute;
+	left: 50px;
+	top: 150px;
+	border-bottom: 3px solid rgb(191,245,219);
+	border-radius: 29px;
+}
+
+#feedbackform
+{
+	position: absolute;
+	width: 90%;
+	border: 3px solid rgb(20,223,150);
+	border-radius: 54px;
+	top: 250px;
+	left: 5%;
+}
+
+#formarea
+{
+	margin-left: 5%;
+	width: 90%;
+	font-family: "Segoe UI" , sans-serif;
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.fbox
+{
+	width: 100%;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.chosen
+{
+	border: 3px solid rgb(20,23,150);
+	font-family: monospace;
+	color: rgb(20,23,150);
+	background: -webkit-linear-gradient(rgb(20,223,150), white);
+	background: -o-linear-gradient(rgb(20,223,150), white);
+	background: -moz-linear-gradient(rgb(20,223,150), white);
+	background: linear-gradient(rgb(20,223,150), white);
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.rate
+{
+	border: 3px solid rgb(20,23,150);
+	font-family: "Segoe UI" , sans-serif;
+	color: rgb(20,23,150);
+	background: -webkit-linear-gradient(rgb(20,223,150), white);
+	background: -o-linear-gradient(rgb(20,223,150), white);
+	background: -moz-linear-gradient(rgb(20,223,150), white);
+	background: linear-gradient(rgb(20,223,150), white);
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.fbox
+{
+	border: 3px solid rgb(20,23,150);
+	font-family: "Segoe UI" , sans-serif;
+	color: rgb(20,23,150);
+	background-color: honeydew;
+	border-radius: 15px;
+	padding: 5px;
+	font-size: 25px;
+}
+
+#bottombar
+{
+	position: absolute;
+	top:915px;
+}
+

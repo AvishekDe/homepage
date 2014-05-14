@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+	<title> Feedback:Avishek De </title>
+	<meta name="author" content="Avishek De">
+	<meta name="charset" content="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles/style1.css">
+	<link rel="stylesheet" type="text/css" href="styles/style7.css">
+	<script src="js/sliders.js"></script>
+	<script src="js/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+	<div id="logoholder">
+		<a href="index.html"><img src="pics/logomain.png" width="130px" height="130px"></a>
+	</div>
+
+	<div id="tagholder">
+	<a href="about.html"><div id="aboutme" class="btag" style="top:80px; left:40px;"> <span class="btagtext"> About Me </span></div></a>
+	<a href="apps.html"><div id="apps" class="btag" style="top:80px; left:172px;"> <span class="btagtext"> Apps </span></div></a>
+	<a href="blogs.html"><div id="blogs" class="btag" style="top:80px; left:304px;"> <span class="btagtext"> Blogs </span></div></a>
+	<a href="gallery.html"><div id="gallery" class="btag" style="top:80px; left:436px;"> <span class="btagtext"> Gallery </span></div></a>
+	<a href="contact.html"><div id="contact" class="btag" style="top:80px; left:568px;"> <span class="btagtext"> Contact </span></div></a>
+	<a href="feedback.html"><div id="feedback" class="btag" style="top:80px; left:700px;"> <span class="btagtext"> Feedback </span></div></a>
+	</div>
+
+	<div id="title">
+		Feedback
+	</div>
+
+	<div id="feedbackform">
+		<section id="formarea">
+			Please fill in the following information:
+				<form method="get" action="processfeedback.php">
+					<input name="name" type="text" placeholder="Enter your name" style="height:35px;" class="fbox"><br>
+					<input name="email" type="text" placeholder="Enter your E-mail ID" style="height:35px;" class="fbox"><br>
+					<textarea name="feedback" rows="5" placeholder="Enter your feedback" class="fbox"></textarea><br>
+					Rate the website on a scale of 10:<br><br>
+					
+					<span class="rate">User Experience:</span> &nbsp 0<input name="slideUX" class="slide" type="range"
+		 			min="0" max="10" step="1" value="5"
+		 			onchange="updateSliderUX(this.value)" />10 &nbsp <span id="chosenUX" class="chosen">5</span><br><br>
+		 			
+		 			<span class="rate">Appearance:</span> &nbsp 0<input class="slide" name="slideAP" type="range"
+		 			min="0" max="10" step="1" value="5"
+		 			onchange="updateSliderAP(this.value)" />10 &nbsp <span id="chosenAP" class="chosen">5</span><br><br>
+		 			
+		 			<span class="rate">Usability:</span> &nbsp 0<input name="slideUX" class="slide" type="range"
+		 			min="0" max="10" step="1" value="5"
+		 			onchange="updateSliderUS(this.value)" />10 &nbsp <span id="chosenUS" class="chosen">5</span><br><br>
+					<input type="submit" class="fbox" style="height:45px;vertical-align: middle;" value="Submit">
+				</form>
+		</section>
+	</div>
+
+	<div id="bottombar">
+	<span id="movedownmain">
+	&copy &nbsp Avishek De 2014 <br>
+	Best viewed in Google Chrome ver 12.0 and above and Mozilla Firefox ver 25.0 and above in 1366 x 768 resolution </span>
+	</div>
+</body>
+
+</html>
