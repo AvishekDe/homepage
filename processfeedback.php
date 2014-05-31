@@ -12,3 +12,10 @@
 	$query = mysql_query("insert into feedback (Name , Email , Feedback , Userx , Appearance, Usability) values ('$name' , '$email' , '$feedb' , '$ux' , '$app' , '$us')");
 	mysql_close ("$con");
 ?>
+
+<html>
+	<script>
+		window.alert("Feedback Submitted Successfully");
+		window.location.replace("feedback.html");
+	</script>
+</html>
