@@ -12,6 +12,7 @@
 </head>
 
 <body>
+<div id="cont">
 	<div id="logoholder">
 		<a href="index.html"><img src="pics/logomain.png" width="130px" height="130px"></a>
 	</div>
@@ -32,24 +33,24 @@
 	<div id="feedbackform">
 		<section id="formarea">
 			Please fill in the following information:
-				<form method="get" action="processfeedback.php">
-					<input name="name" type="text" placeholder="Enter your name" style="height:35px;" class="fbox"><br>
-					<input name="email" type="text" placeholder="Enter your E-mail ID" style="height:35px;" class="fbox"><br>
-					<textarea name="feedback" rows="5" placeholder="Enter your feedback" class="fbox"></textarea><br>
+				<form method="post" action="processfeedback.php">
+					<input id="name" name="name" type="text" placeholder="Enter your name" style="height:35px;" class="fbox"><br>
+					<input id="email" name="email" type="text" placeholder="Enter your E-mail ID" style="height:35px;" class="fbox"><br>
+					<textarea id="feedback" name="feedback" rows="5" placeholder="Enter your feedback" class="fbox"></textarea><br>
 					Rate the website on a scale of 10:<br><br>
 					
-					<span class="rate">User Experience:</span> &nbsp 0<input name="slideUX" class="slide" type="range"
+					<span class="rate">User Experience:</span> &nbsp 0<input id="slideUX" name="slideUX" class="slide" type="range"
 		 			min="0" max="10" step="1" value="5"
 		 			onchange="updateSliderUX(this.value)" />10 &nbsp <span id="chosenUX" class="chosen">5</span><br><br>
 		 			
-		 			<span class="rate">Appearance:</span> &nbsp 0<input class="slide" name="slideAP" type="range"
+		 			<span class="rate">Appearance:</span> &nbsp 0<input id="slideAP" class="slide" name="slideAP" type="range"
 		 			min="0" max="10" step="1" value="5"
 		 			onchange="updateSliderAP(this.value)" />10 &nbsp <span id="chosenAP" class="chosen">5</span><br><br>
 		 			
-		 			<span class="rate">Usability:</span> &nbsp 0<input name="slideUX" class="slide" type="range"
+		 			<span class="rate">Usability:</span> &nbsp 0<input id="slideUS" name="slideUS" class="slide" type="range"
 		 			min="0" max="10" step="1" value="5"
 		 			onchange="updateSliderUS(this.value)" />10 &nbsp <span id="chosenUS" class="chosen">5</span><br><br>
-					<input type="submit" class="fbox" style="height:45px;vertical-align: middle;" value="Submit">
+					<input type="submit" class="fbox" id="submit" style="height:45px;vertical-align: middle;" value="Submit">
 				</form>
 		</section>
 	</div>
@@ -59,6 +60,11 @@
 	&copy &nbsp Avishek De 2014 <br>
 	Best viewed in Google Chrome ver 12.0 and above and Mozilla Firefox ver 25.0 and above in 1366 x 768 resolution </span>
 	</div>
+
+	<div id="success">
+		Your feedback is submitted successfully
+	</div>
+</div>
 </body>
 
 </html>

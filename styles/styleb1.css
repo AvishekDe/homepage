@@ -1,0 +1,9 @@
+#socialbuttons
+{
+	width: 130px;
+	height:130px;
+	position: absolute;
+	left: 315px;
+	top: -7px;
+	border: 3px solid black;
+}
