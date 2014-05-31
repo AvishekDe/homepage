@@ -1,0 +1,92 @@
+#title
+{
+	width: 460px;
+	height: 78px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 63px;
+	color: rgb(191, 245, 219);
+	position: absolute;
+	left: 50px;
+	top: 150px;
+	border-bottom: 3px solid rgb(191,245,219);
+	border-radius: 29px;
+}
+
+#mail
+{
+	width: 35%;
+	height: 60px;
+	border-radius: 35px;
+	border: 1px solid black;
+	background: -webkit-linear-gradient(rgb(20,223,150), white);
+	background: -o-linear-gradient(rgb(20,223,150), white);
+	background: -moz-linear-gradient(rgb(20,223,150), white);
+	background: linear-gradient(rgb(20,223,150), white);
+	position: absolute;
+	top: 260px;
+	text-align: center;
+	left: 10%;
+	font-family: Segoe UI;
+	font-weight: 700;
+	font-size: 41px;
+	color: rgb(33,129,129);
+}
+
+#phonereq
+{
+
+	width: 35%;
+	height: 60px;
+	border-radius: 35px;
+	border: 1px solid black;
+	background: -webkit-linear-gradient(rgb(20,223,150), white);
+	background: -o-linear-gradient(rgb(20,223,150), white);
+	background: -moz-linear-gradient(rgb(20,223,150), white);
+	background: linear-gradient(rgb(20,223,150), white);
+	position: absolute;
+	top: 260px;
+	text-align: center;
+	left: 55%;
+	font-family: Segoe UI;
+	font-weight: 700;
+	font-size: 34px;
+	color: rgb(33,129,129);
+}
+
+#socialcont
+{
+	position: absolute;
+	left: 185px;
+	top:400px;
+	height: 128px;
+}
+
+.bw:hover
+{
+	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+#requestdiv
+{
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	top:25%;
+	height: 100px;
+	display: none;
+}
+
+#phone input
+{
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	border: 0px solid black;
+	color: rgb(20,238,72);
+	background: -webkit-linear-gradient(rgb(240, 20, 90), rgb(68, 35, 35));
+	background: -o-linear-gradient(rgb(240, 20, 90), rgb(68, 35, 35));
+	background: -moz-linear-gradient(rgb(240, 20, 90), rgb(68, 35, 35));
+	background: linear-gradient(rgb(240, 20, 90), rgb(68, 35, 35));
+}

@@ -81,21 +81,3 @@
 	position: absolute;
 	top:915px;
 }
-
-#success
-{
-	position: fixed;
-	font-family: "Segoe UI" , sans-serif;
-	height: 50px;
-	width: 45%;
-	font-size: 30px;
-	text-align: center;
-	top: 50%;
-	left: 27%;
-	border: 2px solid black;
-	background: -webkit-linear-gradient(rgb(20,223,150), white);
-	background: -o-linear-gradient(rgb(20,223,150), white);
-	background: -moz-linear-gradient(rgb(20,223,150), white);
-	background: linear-gradient(rgb(20,223,150), white);
-	display: none;
-}
