@@ -1,4 +1,5 @@
-function show()
-{
-	document.getElementById("requestdiv").style.display = "block";
-}
+$(document).ready(function() {
+	$("#phonereq").click(function(){
+		$("#requestdiv").fadeToggle("slow" , "linear");
+	});
+});

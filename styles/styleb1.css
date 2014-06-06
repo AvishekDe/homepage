@@ -1,9 +1,90 @@
-#socialbuttons
+body
+{
+	background-image: url('../pics/bg.png');
+	background-repeat: both;
+}
+
+#logoholder
 {
 	width: 130px;
 	height:130px;
 	position: absolute;
-	left: 315px;
+	left: 80px;
 	top: -7px;
-	border: 3px solid black;
+}
+
+#logoholder:hover
+{
+	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+
+#maincontent
+{
+	position: absolute;
+	top: 130px;
+	left: 5%;
+	width: 90%;
+	min-height: 500px;
+}
+
+#video
+{
+	float: right;
+	padding: 10px;
+}
+
+#writeup
+{
+	font-family: 'Segoe UI' , sans-serif;
+	font-size: 22px;
+	text-align: justify;
+}
+
+#s2
+{
+	font-weight: 700;
+	color:#EB1A14;
+}
+
+.head
+{
+	font-weight: 700;
+	font-family: serif;
+	font-size: 28px;
+}
+
+#heading
+{
+	position: absolute;
+	height: 100px;
+	width: 900px;
+	top: 10px;
+	left: 300px;
+	text-align: center;
+	font-family: 'Cinzel Decorative' , sans-serif;
+	font-size: 43px
+}
+
+#socialdiv
+{
+	text-align: center;
+}
+
+#bottombar
+{
+	height: 100px;
+	width: 1127px;
+	background: -webkit-linear-gradient(rgb(20,223,150), white);
+	background: -o-linear-gradient(rgb(20,223,150), white);
+	background: -moz-linear-gradient(rgb(20,223,150), white);
+	background: linear-gradient(rgb(20,223,150), white);
+	position: absolute;
+	top: 2097px;
+	left: 80px;
+	font-family: 'Segoe UI' , sans-serif;
+	font-weight: 700;
+	text-align: center;
 }

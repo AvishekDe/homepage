@@ -1,0 +1,13 @@
+#title
+{
+	width: 907px;
+	height: 78px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 63px;
+	color: rgb(191, 245, 219);
+	position: absolute;
+	left: 50px;
+	top: 150px;
+	border-bottom: 3px solid rgb(191,245,219);
+	border-radius: 29px;
+}
